@@ -30,3 +30,13 @@ print(np.full((2,3), 7)) #모든 원소가 7인 2*3 행렬생성
 
 print(np.eye(3))        #단위행렬
 print(np.eye(5))
+
+
+#1.3 배열의 차원 변환
+a = np.arange(20)
+b = a.reshape((4,5))
+print(a)
+print(b)
+#원래의 배열과 변환하려는 행렬의 원소 수가 다르면 오류
+
+
